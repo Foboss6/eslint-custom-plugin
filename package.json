@@ -1,0 +1,30 @@
+{
+  "name": "eslint-custom-plugin",
+  "version": "1.0.0",
+  "description": "Plugin with custom rules for ESLint with using TypeScript",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foboss6/eslint-custom-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foboss6/eslint-custom-plugin/issues"
+  },
+  "homepage": "https://github.com/Foboss6/eslint-custom-plugin#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.4.3",
+    "@types/estree": "0.0.51",
+    "@types/node": "^18.0.0",
+    "tsup": "^6.1.2",
+    "typescript": "^4.7.4"
+  }
+}
