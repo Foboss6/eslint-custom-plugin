@@ -1,5 +1,9 @@
+import { functionDescriptionRule } from './rules';
+
 module.exports = {
   rules: {
-    // our rules will go here
+    'function-description-rule': {
+      create: functionDescriptionRule,
+    },
   },
 };
